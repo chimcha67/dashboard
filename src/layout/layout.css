@@ -1,0 +1,129 @@
+/* .main-container{
+    transform: translate(-2%, 10%);
+} */
+
+body{
+    background: rgb(128, 141, 153);
+    overflow: hidden;
+    height: 100vh;
+}
+.menu-col{
+    box-shadow: 8px 8px 8px 4px rgba(0,0,0,0);
+    background: white;
+    height: 90vh;
+    width: 16vw;
+    position: relative;
+    top: 30px;
+    left: 5rem;
+    border: 5px solid rgb(245, 244, 242);
+    border-radius: 10px;
+}
+.logo{
+    position: relative;
+    top: 15px;
+    left: 20px;
+    display: flex;
+}
+.logo>:nth-child(1){
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+.logo>:nth-child(2){
+    position: relative;
+    top: 8px;
+    left: 3px;
+}
+hr{
+    width: 11rem;
+    position: relative;
+    top: 25px;
+}
+ .menu-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1rem;
+    position: relative;
+    top: 30px;
+    left: 30px;
+   
+}
+.menu-list a{
+    text-decoration: none;
+    color: rgb(2, 2, 15);
+    position: relative;
+    top: 50%;
+    left: -40px;
+  
+}
+.menu-list a p{
+    position: relative;
+    left: 26px;
+    top: 6px;
+}
+ .menu-list a:hover{
+    background: rgb(6, 6, 24);
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    width: 12rem;
+   
+}
+.menu-list a.menu1{
+    background: rgb(6, 6, 24);
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    width: 12rem;
+   
+}
+.icons{
+    position: absolute;
+    top: 10px;
+}
+
+.user-div{
+    position: relative;
+    z-index: 1;
+    top: -8rem;
+    left: 3rem;
+    text-align: center;
+}
+.user-div span{
+    color: grey;
+}
+.user-div img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 7.5rem;
+    top: 10px;
+}
+.user-div p{
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: orange;
+    position: relative;
+    left: 10.3rem;
+    top: -4.4rem;
+}
+legend{
+    position: absolute;
+    left: 8rem;
+    height: 25px;
+    width: 20px;
+    border-radius: 10px;
+    background: rgb(140, 201, 153);
+    text-align: center;
+    font-size: 15px;
+}

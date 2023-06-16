@@ -1,0 +1,286 @@
+.search-div{
+    display: flex;
+    box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.1);
+    width: 55rem;
+    height: 60px;
+    position: absolute;
+    top: 40px;
+    
+    border-radius: 10px;
+    background: white;
+}
+.search-div input{
+    background: rgb(234, 238, 241);
+    width: 16rem;
+    height: 30px;
+    border-radius: 15px;padding-left: 10px;
+    position: relative;
+    top: -7px;
+    outline: none;
+
+}
+.search-icon{
+    position: relative;
+    left: -30px;
+}
+.search-div2{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+#select-date{
+    border: none;
+    position: relative;
+    top: -5px;
+    height: 25px;
+    width: 145px;
+    color: gray;
+    outline: none;
+}
+.overall-task-div{
+    background: white;
+    width: 55rem;
+    position: relative;
+    top: 8rem;
+    left: 1.3rem;
+    height: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.task-div{
+    box-shadow: 8px 8px 8px 4px rgba(0,0,0,0);
+    background: white;
+    width: 55rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    height: 280px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.table-div{
+    
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+.divided-tasks{
+    display: flex;
+    position: relative;
+    left: -27px;
+}
+.last-task-div{
+    left: 20px;
+    position: relative;
+    top: 25px;
+
+}
+.last-task-div h3{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.last-task-div p{
+    font-size: 15px;
+}
+.last-task-div p span{
+    font-weight: bold;
+}
+.sub-divided1{
+    position: relative;
+    left: -50px;
+    top: 25px;
+}
+.sub-divided1 h3{
+    font-size: 25px;
+}
+.sub-divided1 p{
+    font-size: 15px;
+    color: gray;
+}
+.sub-divided2{
+    position: relative;
+    left: -20px;
+    text-align: center;
+    top: 25px;
+}
+.sub-divided2 h3{
+    font-size: 25px;
+}
+.sub-divided2 p{
+    font-size: 15px;
+    color: gray;
+}
+.div1{
+    position: relative;
+    top: 15px;
+    left: 23px;
+}
+.div1 .check-box{
+    height: 35px;
+}
+.div1 label{
+    position: relative;
+    left: 10px;
+}
+.lbl2{
+    position: relative;
+    top: 15px;
+}
+
+
+.admin-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.status-icon{
+   position: relative;
+   left: 30px;
+   top: 25px;
+   font-size: 12px;
+}
+.status-icon2{
+    position: relative;
+    top: 3px;
+}
+.img-div-name{
+    position: relative;
+    left: -20px;
+}
+
+.done-status-icon{
+    color: green;
+}
+.progress-status-icon{
+    color: rgb(119, 159, 245);
+    
+}
+.mem-num{
+    position: relative;
+    top: 20px;
+}
+.img-div{
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+.img-div span{
+    position: relative;
+    top: 3px ;
+    left: 10px;
+}
+.runtime{
+    position: relative;
+    top: 20px;
+    text-align: left;
+}
+.btn-div{
+    position: absolute;
+}
+.show-btn{
+    position: relative;
+    top: -0.3rem;
+    left: 49rem;
+    outline: none;
+    background: white;
+    width: 75px;
+    border-radius: 10px;
+}
+.main-pro-div{
+    display: flex;
+    position: relative;
+
+}
+.productivity-div{
+    box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.1);
+    width: 26.5rem;
+    height: 195px;
+    position: relative;
+    top: 9rem;
+    background: white;
+    left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.p-d-div{
+    margin-bottom: 10px;
+    color: gray;
+}
+.p-d-div p{
+    position: relative;
+    top: 50px;
+    font-size: 10px;
+    left: -20px;
+}
+.productivity-div h3{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+ #select-date2{
+    position: absolute;
+    top: 20px;
+    left: 18.6rem;
+    background: rgb(240, 237, 248);
+    padding-left: 5px;
+    border-radius: 15px;
+}
+.productivity-div2{
+    box-shadow: 8px 8px 8px 4px rgba(0,0,0,0.1);
+    width: 26.5rem;
+    background: rgb(1, 1, 10);
+    height: 195px;
+   
+    position: relative;
+    top: 9rem;
+    left: 14.5rem;
+    border-radius: 10px;
+   overflow: hidden;
+    
+}
+.graph{
+    position: absolute;
+    left: 1rem;
+    height: 50px;
+    padding-top: 75px;
+}
+.dot-div{
+    display: flex;
+    position: relative;
+    left: 36px;
+}
+.dot1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(106, 195, 230);
+    position: relative;
+    left: -1.1rem;
+    top: 1rem;
+}
+.dot2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(146, 36, 146);
+    position: relative;
+    left: -1rem;
+    top: 1rem;
+}
+.sub-dot-d1{
+    position: relative;
+    left: 30px;
+}

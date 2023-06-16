@@ -1,0 +1,64 @@
+.comment-input{
+    border: 1px solid grey;
+    position: relative;
+    top: 50px;
+    height: 33px;
+    border-radius: 10px;
+}
+.reply{
+    background: #1d9bf0;
+    position: relative;
+    width: 60px;
+    height: 35px;
+    color: white;
+    border-radius: 30px;
+    top: 50px;
+    left: 10px;
+}
+.comment-div{
+    position: absolute;
+}
+.sub-edit-div{
+    position:absolute;
+    top: 5rem;
+    display: flex;
+}
+.sub-edit-div input{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+.edit-div button{
+    position: relative;
+    left: 10px;
+    border: 0.3px solid #1d9bf0;
+    width: 60px;
+    background: #1d9bf0;
+    border-radius: 20px;
+    color: white;
+}
+.mini-menu .m-m-btn{
+    width: 100px;
+    margin-left: -30px;
+    text-align: center;
+    position: absolute;
+    /* display: flex;
+    flex-direction: column; */
+    box-shadow:0 4px 8px 0 rgba(0,0,0,.3)
+   
+}
+.mini-menu .m-m-btn button{
+
+}
+
+ .mini-menu .m-m-btn .m-btn-hover:hover{
+    background: #1d9bf0;
+    color: white;
+   
+} 
+ .dot-menu{
+    justify-content: space-between;
+    margin-left: auto;
+    margin-left: 20rem;
+    
+}

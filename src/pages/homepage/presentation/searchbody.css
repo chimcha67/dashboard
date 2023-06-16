@@ -1,0 +1,12 @@
+.sub{
+    position: relative;
+    left: 2rem;
+    top: -26rem;
+    width: 300px;
+    
+     background: white; 
+    box-shadow: 0px, 5px, 15px 8px rgba(0,0,0,0.3); 
+    z-index: 1;
+    overflow: hidden;
+    overflow-y: auto;
+}
